@@ -2,7 +2,7 @@
 
 ## Add file or folder to index for tracking
 
-### All&#x20;
+### All
 
 ```
 git add -A
@@ -26,6 +26,24 @@ git branch <branchName>
 
 ```
 git switch -c <branchName>
+```
+
+#### Create Branch from Specific Commit ID
+
+```
+git branch <branchName> <commitID>
+```
+
+### Delete
+
+```
+git branch -d <branchName>
+```
+
+#### Force Delete
+
+```
+git branch -D <branchName>
 ```
 
 ### List
@@ -69,10 +87,6 @@ git config --global <key> <value>
 ### Man page style
 
 ```
-git <command> --help
-
-or
-
 git help <command>
 ```
 
@@ -83,6 +97,12 @@ git <command> -h
 ```
 
 ## Merge
+
+Abort a merge attempt (only possible if there are conflicts)
+
+```
+git merge --abort
+```
 
 Merge a (feature) branch into the current (integration) branch
 
