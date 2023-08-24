@@ -62,10 +62,32 @@ A \* denotes the current branch
 git switch <branchName>
 ```
 
-## Commit Changes
+## Commit
+
+### Commit Changes
 
 ```
 git commit -m "Your brief message here"
+```
+
+### Log History
+
+Verbose log of current branch
+
+```
+git log
+```
+
+Compact log of current branch
+
+```
+git log --oneline
+```
+
+Log of all commits in the repository displayed as graph
+
+```
+git log --oneline --all --graph
 ```
 
 ## Config

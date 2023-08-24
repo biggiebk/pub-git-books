@@ -38,11 +38,7 @@ This is a second line from feature branch
 >>>>>>> testBranch1
 ```
 
-* &#x20;<<<<<<< - Denotes the start of the conflict
-* HEAD  - indicates the next line(s) are in the integration branch
-* &#x20;\=======  - End of the integration branch line(s) and start of the feature branch
-* &#x20;\>>>>>>>  - end of the feature branch line(s)
-* testBranch1 - the name of the feature branch
+<table><thead><tr><th width="247"></th><th></th></tr></thead><tbody><tr><td>&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;</td><td>Denotes the start of the conflict</td></tr><tr><td>HEAD</td><td>Current commit of the integration branch</td></tr><tr><td>=======</td><td>End of the integration branch line(s) and start of the feature branch</td></tr><tr><td>>>>>>>></td><td>end of the feature branch line(s)</td></tr><tr><td>testBranch1</td><td>the name of the feature branch</td></tr></tbody></table>
 
 Finally add/stage the file and commit
 
