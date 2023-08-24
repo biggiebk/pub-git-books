@@ -70,6 +70,32 @@ git switch <branchName>
 git commit -m "Your brief message here"
 ```
 
+### Diff Between Commits
+
+Difference between working directory and index
+
+```
+git diff --
+```
+
+Difference between specific file and that file in index
+
+```
+git diff -- <fileName>
+```
+
+Difference between index and the object database
+
+```
+git diff --cached --
+```
+
+Difference between a file in the index and the object database
+
+```
+git diff --cached -- <fileName>
+```
+
 ### Log History
 
 Verbose log of current branch
