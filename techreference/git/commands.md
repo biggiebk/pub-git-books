@@ -70,32 +70,6 @@ git switch <branchName>
 git commit -m "Your brief message here"
 ```
 
-### Diff Between Commits
-
-Difference between working directory and index
-
-```
-git diff --
-```
-
-Difference between specific file and that file in index
-
-```
-git diff -- <fileName>
-```
-
-Difference between index and the object database
-
-```
-git diff --cached --
-```
-
-Difference between a file in the index and the object database
-
-```
-git diff --cached -- <fileName>
-```
-
 ### Log History
 
 Verbose log of current branch
@@ -115,6 +89,54 @@ Log of all commits in the repository displayed as graph
 ```
 git log --oneline --all --graph
 ```
+
+## Diff
+
+### Branches
+
+```
+git diff <branchName1> <brancheName2> --
+```
+
+### Commits
+
+```
+git diff <commitId1> <commitId2> --
+```
+
+### General Options
+
+#### By word not line
+
+```
+git diff --word-diff --
+```
+
+### Index and the object database
+
+```
+git diff --cached --
+```
+
+#### File in index and the object database
+
+```
+git diff --cached -- <fileName>
+```
+
+### Working directory and index
+
+```
+git diff --
+```
+
+#### File and that file in index
+
+```
+git diff -- <fileName>
+```
+
+###
 
 ## Config
 
