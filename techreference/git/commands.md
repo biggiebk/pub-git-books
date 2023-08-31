@@ -1,19 +1,5 @@
 # Commands
 
-## Add file or folder to index for tracking
-
-### All
-
-```
-git add -A
-```
-
-### Specific Files
-
-```
-git add <fileORfolder1> <fileORfolder2> ...
-```
-
 ## Branches
 
 ### Create
@@ -136,7 +122,35 @@ git diff --
 git diff -- <fileName>
 ```
 
-###
+## Files/Folder Tracking
+
+### Add
+
+#### All
+
+```
+git add -A
+```
+
+#### Specific Files
+
+```
+git add <fileORfolder1> <fileORfolder2> ...
+```
+
+### Restore
+
+#### Index to working dir
+
+```
+git restore <fileORfolder1> <fileORfolder2> ...
+```
+
+#### Object DB to the index
+
+```
+git restore --staged <fileORfolder1> <fileORfolder2> ...
+```
 
 ## Config
 
