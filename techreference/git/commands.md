@@ -138,6 +138,32 @@ git add -A
 git add <fileORfolder1> <fileORfolder2> ...
 ```
 
+### Delete
+
+#### File
+
+```
+git rm <fileName1> <fileName2>
+```
+
+#### Folder
+
+```
+git rm -r <folderName1>
+```
+
+#### If you did non git rm
+
+```
+git add -u <fileName1> <fileName2>
+```
+
+### Rename
+
+```
+git mv -u <oldFileName> <newFileName>
+```
+
 ### Restore
 
 #### Index to working dir
