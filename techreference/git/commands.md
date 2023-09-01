@@ -34,13 +34,13 @@ git branch -D <branchName>
 
 ### List
 
-```
-git branch
-```
-
 {% hint style="info" %}
 A \* denotes the current branch
 {% endhint %}
+
+```
+git branch
+```
 
 ### Switch
 
@@ -55,6 +55,14 @@ git switch <branchName>
 ```
 git commit -m "Your brief message here"
 ```
+
+### Update Last Commit Message
+
+{% hint style="info" %}
+Make sure there are no fresh updates pending. When updating the last commit message any new changes will be commited along with other changes. This only works on the last commit.
+{% endhint %}
+
+git commit --amend -m "New commit message"
 
 ### Log History
 
