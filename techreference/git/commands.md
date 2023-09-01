@@ -152,10 +152,16 @@ git rm <fileName1> <fileName2>
 git rm -r <folderName1>
 ```
 
-#### If you did non git rm
+#### If you did non git rm/delete
 
 ```
 git add -u <fileName1> <fileName2>
+```
+
+#### From index
+
+```
+git rm --cached <fileORfolder1>
 ```
 
 ### Rename
@@ -218,12 +224,6 @@ Merge a (feature) branch into the current (integration) branch
 
 ```
 git merge <featureBrachName>
-```
-
-## Remove file or folder from index
-
-```
-git rm --cached <fileORfolder1>
 ```
 
 ## Status
