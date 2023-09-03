@@ -42,6 +42,20 @@ A \* denotes the current branch
 git branch
 ```
 
+### Rename
+
+#### Current Branch
+
+```
+git branch -m <newBranchName>
+```
+
+#### Specify  Branch
+
+```
+git branch -m <oldBranchName> <newBranchName>
+```
+
 ### Switch
 
 ```
