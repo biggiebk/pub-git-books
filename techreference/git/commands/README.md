@@ -10,13 +10,13 @@ Some basics on how GIT functions, along with there related commands.
 
 ### I
 
-#### Index - A staging area where updates files are copied to and stored after the add command is run
+#### Index - A staging area where updated files are copied to and stored after the add command is run
 
 #### Integration Branch - Collects the work done in other branches via merging feature branches.
 
 ### O
 
-#### Object Database - When a commit is initiated files stored in the index are moved here with a commit object that records metadata (pointer to the files, author name, email, and the time of commit) on the commit.&#x20;
+#### Object Database - When a commit is initiated files stored in the index are moved here along with a commit object that records metadata (pointer to the files in the commit, author name, email, and the time of commit).&#x20;
 
 ### P
 
