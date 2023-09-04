@@ -20,6 +20,6 @@ Some basics on how GIT functions, along with there related commands.
 
 ### P
 
-#### Proposee - The branch that will be merged from the propser (your current branch).
+#### Proposee - The branch that will be merged from the proposer (your current branch).
 
 #### Proposer - The branch that you are currently on and are initiating a merge into.
