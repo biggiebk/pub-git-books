@@ -14,5 +14,6 @@
   * [Merge](git/commands/merge.md)
   * [Status](git/commands/status.md)
 * [How To](git/how-to/README.md)
-  * [Merge Conflicts](git/how-to/merge-conflicts.md)
   * [Relative Commit Referencing](git/how-to/relative-commit-referencing.md)
+  * [Solving Merge Conflicts](git/how-to/solving-merge-conflicts.md)
+  * [Understanding Resets](git/how-to/understanding-resets.md)

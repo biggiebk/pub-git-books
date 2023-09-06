@@ -10,7 +10,7 @@ The simplest or most straight forward type of merge.  This merge occurs when the
 
 ### Commit at Merge Time (Merge Commit)
 
-This is a more complicated merge and it occurs when the integration branch has been updated after the creation of the feature branch. When this occurs GIT will create merge the two branches (assuming no [conflicts](../how-to/merge-conflicts.md)), prompt you for a commit message, and creates a new commit.
+This is a more complicated merge and it occurs when the integration branch has been updated after the creation of the feature branch. When this occurs GIT will create merge the two branches (assuming no [conflicts](../how-to/solving-merge-conflicts.md)), prompt you for a commit message, and creates a new commit.
 
 <img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
 
