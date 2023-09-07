@@ -15,10 +15,10 @@ We will assume the following commit history for this exercise, with the goal of 
 #### Process
 
 1. Move the files that were committed in ID 1354d91 to the index
-2. Copies the files that were just moved to the index to your working director
-3. HEAD in the object database now references commit 2af74ca
+2. Copies the files that were just moved to the index to your working directory
+3. HEAD is updated in the object database and now references commit 2af74ca
 4. Copies the files from commit 2af74ca to the index
-5. Copies the contents of the index (commit 2af74ca) to the working directory
+5. Overwrites the working with  the contents of the index (commit 2af74ca)
 
 #### Results
 
@@ -34,16 +34,16 @@ We will assume the following commit history for this exercise, with the goal of 
 
 #### Process
 
-1. Move the files that were committed in ID 1354d91 to the index
-2. Copies the files that were just moved to the index to your working director
-3. HEAD in the object database now references commit 2af74ca
+1. Moves the files that were committed in ID 89cc67b to the index
+2. Copies the files that were just moved to the index (commit 89cc67b) to your working directory
+3. HEAD is updated in the object database and now references commit 2af74ca
 4. Copies the files from commit 2af74ca to the index
 
 #### Results
 
 | Location                     | Files          |
 | ---------------------------- | -------------- |
-| Working Directory            | Commit 1354d91 |
+| Working Directory            | Commit 89cc67b |
 | Index                        | Commit 2af74ca |
 | Object Database HEAD Pointer | Commit 2af74ca |
 
@@ -51,14 +51,14 @@ We will assume the following commit history for this exercise, with the goal of 
 
 #### Process
 
-1. Move the files that were committed in ID 1354d91 to the index
-2. Copies the files that were just moved to the index to your working director
-3. HEAD in the object database now references commit 2af74ca
+1. Moves the files that were committed in ID 1354d91 to the index
+2. Copies the files that were just moved to the index (commit 89cc67b) to your working directory
+3. HEAD is updated in the object database and now references commit 2af74ca
 
 #### Results
 
 | Location                     | Files          |
 | ---------------------------- | -------------- |
-| Working Directory            | Commit 1354d91 |
-| Index                        | Commit 1354d91 |
+| Working Directory            | Commit 89cc67b |
+| Index                        | Commit 89cc67b |
 | Object Database HEAD Pointer | Commit 2af74ca |
