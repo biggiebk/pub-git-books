@@ -11,5 +11,5 @@ We will be working with the assumption our commit history looks like the followi
 1. Identify how far back you would like to reset to. In this case we want to reset to 2af74ca.
 2. Run **git reset 2af74ca** (you can also use a soft one, just NOT a hard reset)
 3. run **git status** to run very the files you need to review and add to the index.
-4. For each file run **git add \<fileName>**
+4. For each file run **git add \<fileName>** (skip if you ran a soft)
 5. Finally we are ready to commit by running **git commit -m "One message to rule them all"**
