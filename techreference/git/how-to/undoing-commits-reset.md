@@ -1,4 +1,4 @@
-# Understanding Resets
+# Undoing Commits (reset)
 
 Reset enables you to go back to a specific commit removing the previous commits.  There are three different types of commits with, the main difference between the commit types is what is left as a status of the working directory and the index of changes being tracked, the following tables should help you understand.
 
@@ -11,6 +11,10 @@ We will assume the following commit history for this exercise, with the goal of 
 ## Three Types of Commits
 
 ### Hard
+
+```
+git reset --hard 2af74ca
+```
 
 #### Process
 
@@ -32,6 +36,16 @@ We will assume the following commit history for this exercise, with the goal of 
 
 ### Mixed (Default)
 
+```
+git reset 2af74ca
+```
+
+or
+
+```
+git reset --mixed 2af74ca
+```
+
 #### Process
 
 1. Moves the files that were committed in ID 89cc67b to the index
@@ -48,6 +62,10 @@ We will assume the following commit history for this exercise, with the goal of 
 | Object Database HEAD Pointer | Commit 2af74ca |
 
 ### Soft
+
+```
+git reset --soft 2af74ca
+```
 
 #### Process
 

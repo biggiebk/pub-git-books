@@ -38,7 +38,7 @@ git log --oneline --all --graph
 
 ### Reset
 
-Used to reset to a previous commit. See [understanding resets ](../how-to/understanding-resets.md)for more details on the different types.
+Used to reset to a previous commit. See [understanding resets ](../how-to/undoing-commits-reset.md)for more details on the different types.
 
 #### Hard
 
