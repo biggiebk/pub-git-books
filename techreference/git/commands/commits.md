@@ -60,7 +60,7 @@ git reset --soft <commitID>
 
 ### Revert
 
-Similiar to reset, however only has one mode and instead of deleting commits this one undoes the changes and then makes a new commit.
+Similar to reset, however only has one mode and instead of deleting commits this one undoes the changes and then makes a new commit.
 
 ```
 git rever <commitID>
