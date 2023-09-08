@@ -61,3 +61,9 @@ git restore <fileORfolder1> <fileORfolder2> ...
 ```
 git restore --staged <fileORfolder1> <fileORfolder2> ...
 ```
+
+#### Specific from a specific commit
+
+```
+git restore --source <commitID> <fileName>
+```

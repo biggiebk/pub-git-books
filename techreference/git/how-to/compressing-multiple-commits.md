@@ -13,3 +13,4 @@ We will be working with the assumption our commit history looks like the followi
 3. run **git status** to run very the files you need to review and add to the index.
 4. For each file run **git add \<fileName>** (skip if you ran a soft)
 5. Finally we are ready to commit by running **git commit -m "One message to rule them all"**
+6. Run **git push -f** to push to the remote repo
