@@ -18,3 +18,9 @@
   * [Relative Commit Referencing](git/how-to/relative-commit-referencing.md)
   * [Solving Merge Conflicts](git/how-to/solving-merge-conflicts.md)
   * [Undoing Commits (reset)](git/how-to/undoing-commits-reset.md)
+
+## Azure
+
+* [AZ-900](azure/az-900/README.md)
+  * [Cloud Guru](azure/az-900/cloud-guru/README.md)
+    * [Introduction](azure/az-900/cloud-guru/introduction.md)
