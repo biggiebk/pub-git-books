@@ -13,3 +13,7 @@
 * Pricing
 * Support
 * Exam Prep
+
+## Cloud Shell
+
+Requires Storage account
