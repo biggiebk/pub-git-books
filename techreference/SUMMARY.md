@@ -6,6 +6,7 @@
 
 * [The Basics](git/commands/README.md)
   * [Branch](git/commands/branch.md)
+  * [Clone and Remote](git/commands/clone-and-remote.md)
   * [Commits](git/commands/commits.md)
   * [Config](git/commands/config.md)
   * [Diff](git/commands/diff.md)

@@ -2,6 +2,11 @@
 
 Some basics on how GIT functions, along with there related commands.
 
+## Links
+
+* [GIT Book Online](https://git-scm.com/book/en/v2)
+* [GIT CLI](https://git-scm.com/docs)
+
 ## Vocabulary
 
 ### F
