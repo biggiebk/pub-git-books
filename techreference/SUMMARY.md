@@ -22,7 +22,5 @@
 
 ## Azure
 
-* [Summary](azure/summary.md)
-* [AZ-900](azure/az-900/README.md)
-  * [Cloud Guru](azure/az-900/cloud-guru/README.md)
-    * [Introduction](azure/az-900/cloud-guru/introduction.md)
+* [Links](azure/links.md)
+* [Vocabulary](azure/vocabulary.md)
