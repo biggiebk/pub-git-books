@@ -22,5 +22,18 @@
 
 ## Azure
 
+* [Components](azure/components/README.md)
+  * [Architecture](azure/components/architecture.md)
+  * [Compute](azure/components/compute.md)
+  * [Networking](azure/components/networking.md)
+  * [Storage](azure/components/storage.md)
+  * [Databases](azure/components/databases.md)
+  * [Authentication and Authorization](azure/components/authentication-and-authorization.md)
+  * [Azure Solutions](azure/components/azure-solutions.md)
+  * [Security](azure/components/security.md)
+  * [Monitoring and Management](azure/components/monitoring-and-management.md)
+  * [Pricing](azure/components/pricing.md)
+  * [Support](azure/components/support.md)
+* [Exam Prep](azure/exam-prep.md)
 * [Links](azure/links.md)
 * [Vocabulary](azure/vocabulary.md)
