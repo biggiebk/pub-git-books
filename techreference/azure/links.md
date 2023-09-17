@@ -8,6 +8,7 @@
 * [CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli?view=azure-cli-latest)
 * [Cloud Deployment Models](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/?WT.mc\_id=ACloudGuru\_Learn\_multiple-learn-wwl)
 * [Data Center Architecture](https://www.youtube.com/watch?v=D8hMu4jJAwo)
+* [Express Route](https://learn.microsoft.com/en-au/azure/expressroute/expressroute-introduction)
 * [Fiscal Outcomes](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/fiscal-outcomes)
 * [Fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/?WT.mc\_id=ACloudGuru\_Learn\_multiple-learn-wwl)
 * [Load Balancer FAQ](https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-faqs)
