@@ -42,6 +42,20 @@ A \* denotes the current branch
 git branch
 ```
 
+### Push
+
+#### Remote Already St
+
+```
+git push
+```
+
+#### Specify Remote
+
+```
+git push -u origin <branchName>
+```
+
 ### Rename
 
 #### Current Branch
