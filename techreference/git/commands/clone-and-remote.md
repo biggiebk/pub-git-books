@@ -8,6 +8,12 @@
 git clone <urlToRemote>
 ```
 
+Clone under a different folder
+
+```
+git clone <urlToRemote> <diffFolderName>
+```
+
 ### Push
 
 ```

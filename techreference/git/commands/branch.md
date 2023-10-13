@@ -32,6 +32,12 @@ git branch -d <branchName>
 git branch -D <branchName>
 ```
 
+### Pull
+
+```
+git pull
+```
+
 ### List
 
 {% hint style="info" %}
