@@ -32,6 +32,14 @@ git branch -d <branchName>
 git branch -D <branchName>
 ```
 
+### Fetch
+
+Retrieves all remote branches without updating any local branches
+
+```
+git fetch
+```
+
 ### Pull
 
 ```
