@@ -56,12 +56,6 @@ git branch
 git push
 ```
 
-#### Set Remote/Upstream
-
-```
-git push -u origin <branchName>
-```
-
 #### Specify Remote
 
 ```
