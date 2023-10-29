@@ -13,6 +13,7 @@
   * [File/Folder Tracking](git/the-basics/file-folder-tracking.md)
   * [Help](git/the-basics/help.md)
   * [Merge](git/the-basics/merge.md)
+  * [Searching](git/the-basics/searching.md)
   * [Status](git/the-basics/status.md)
 * [How To](git/how-to/README.md)
   * [Compressing Multiple Commits](git/how-to/compressing-multiple-commits.md)

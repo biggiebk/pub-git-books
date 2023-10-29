@@ -22,22 +22,40 @@ git branch <branchName> <commitID>
 
 ### Delete
 
+Local
+
 ```
 git branch -d <branchName>
 ```
 
-#### Force Delete
+#### Force Delete Local
 
 ```
 git branch -D <branchName>
+```
+
+#### Remote Delete
+
+```
+git push -d origin <branchName>
 ```
 
 ### Fetch
 
 Retrieves all remote branches without updating any local branches
 
+{% hint style="info" %}
+If you want to have the remote branch on the local one you need to merge after the fetch.
+{% endhint %}
+
 ```
 git fetch
+```
+
+#### Prune remotes that no longer exist
+
+```
+git fetch -p
 ```
 
 ### Pull
