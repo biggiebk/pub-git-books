@@ -2,6 +2,10 @@
 
 ## Commands
 
+### Bisect
+
+See the [Working with Bisect](../how-to/working-with-bisect.md) page.
+
 ### Blame
 
 ```
