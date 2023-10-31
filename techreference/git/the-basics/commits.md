@@ -65,3 +65,13 @@ Similar to reset, however only has one mode and instead of deleting commits this
 ```
 git revert <commitID>
 ```
+
+### Specific Commit
+
+{% hint style="info" %}
+Will put the repo into headless state
+{% endhint %}
+
+```
+git checkout <commitID>
+```
