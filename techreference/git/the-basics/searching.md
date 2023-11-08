@@ -18,6 +18,14 @@ git blame <fileName>
 git blame <commitID> <fileName>
 ```
 
+### Command Reference Log
+
+Run the following to view a log of all the git commands you have run in a repo.
+
+```
+git reflog
+```
+
 ### Grep
 
 Search the files that are tracked by the repo using a regex string.
