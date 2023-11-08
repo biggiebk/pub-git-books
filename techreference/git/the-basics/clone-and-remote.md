@@ -35,3 +35,17 @@ git remote
 ```
 git remove -v
 ```
+
+### Tag
+
+Create
+
+```
+git tag <name> (commitID or branchName) # Name should likely be a version v#.#.#
+```
+
+List Tags
+
+```
+git tag --list
+```
