@@ -6,6 +6,8 @@ Some basics on how GIT functions, along with there related commands.
 
 * [GIT Book Online](https://git-scm.com/book/en/v2)
 * [GIT CLI](https://git-scm.com/docs)
+* [Git Commit Conventions](https://www.conventionalcommits.org/)
+* Git Commit Reference used by Angular
 
 ## Vocabulary
 
