@@ -16,14 +16,32 @@ This is a more complicated merge and it occurs when the integration branch has b
 
 ## Commands
 
-Abort a merge attempt (only possible if there are conflicts)
+### Abort a merge attempt (only possible if there are conflicts)
 
 ```
 git merge --abort
 ```
 
-Merge a (feature) branch into the current (integration) branch
+### Merge a (feature) branch into the current (integration) branch
 
 ```
 git merge <featureBrachName>
+```
+
+### Others
+
+#### Cherry-Pick
+
+Merge in a specific commit from a branch.  To be run from the branch you want to merge the commit into to.
+
+```
+git cherry-pick <commitID>
+```
+
+#### Rebase
+
+From the branch you want to have rebased. For more information see [Using Rebase](../how-to/using-rebase.md).
+
+```
+git rebase
 ```
