@@ -6,7 +6,7 @@ Not so much a how to as a these are the aliases that I commonly setup for myself
 
 ```bash
 # Log with online and graph
-git config --global alias.lv  "log --graph --oneline"
+git config --global alias.l  "log --graph --oneline"
 
 # Log with graph and abbrev-commit
 git config --global alias.lv  "log --graph --abbrev-commit"
