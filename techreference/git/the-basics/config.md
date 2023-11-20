@@ -5,7 +5,7 @@
 ### Alias
 
 ```
-git config alias.<aliasName> "<command> (arg1) (arg2) (...)"
+git config (--global) alias.<aliasName> "<command> (arg1) (arg2) (...)"
 ```
 
 ### List

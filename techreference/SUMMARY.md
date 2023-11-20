@@ -20,5 +20,6 @@
   * [Relative Commit Referencing](git/how-to/relative-commit-referencing.md)
   * [Solving Merge Conflicts](git/how-to/solving-merge-conflicts.md)
   * [Undoing Commits (reset)](git/how-to/undoing-commits-reset.md)
+  * [Using Aliases](git/how-to/using-aliases.md)
   * [Using Rebase](git/how-to/using-rebase.md)
   * [Working with Bisect](git/how-to/working-with-bisect.md)
