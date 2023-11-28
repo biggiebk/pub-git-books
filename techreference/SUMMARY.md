@@ -23,3 +23,9 @@
   * [Using Aliases](git/how-to/using-aliases.md)
   * [Using Rebase](git/how-to/using-rebase.md)
   * [Working with Bisect](git/how-to/working-with-bisect.md)
+
+## Terraform
+
+* [CLI](terraform/cli.md)
+* [Files/Folders](terraform/files-folders.md)
+* [HCL](terraform/hcl.md)
