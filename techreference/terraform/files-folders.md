@@ -8,3 +8,4 @@ description: Description of files and folders used by terraform
 
 Contains provider version information
 
+{% embed url="https://developer.hashicorp.com/terraform/language/files/dependency-lock" %}
