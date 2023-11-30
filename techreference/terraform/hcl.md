@@ -6,35 +6,22 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 {% embed url="https://developer.hashicorp.com/terraform/language" %}
 
-## Variable
+## Provider
 
-{% embed url="https://developer.hashicorp.com/terraform/language/values/variables" %}
+{% embed url="https://developer.hashicorp.com/terraform/language/providers" %}
 
 ```
-variable "name_of_variable" {
-    default - Default value if no value provided
-    type - Specifies the type of data
-    description - The documentation for the variable
-    validation - Defines a block of validation rules
-    sensitive - Prevents outputting of value to protect sensitive data
-    nullable - Determines if the variable can be null or not
+provider "<provider_name>" {
+  alias = "..."
+  ...
 }
 ```
 
-### Types
+### Alias
 
-The following are the possible variable types.&#x20;
+Allows for multiple versions of a provider  to be used by assigning an alias name.&#x20;
 
-* string
-* number
-* bool
-* list(\<TYPE>)
-* set(\<TYPE)
-* map(\<TYPE>)
-* object({\<ATTR\_NAME> = \<TYPE>, ... })
-* tuple(\[\<TYPE>, ...])
-
-{% embed url="https://developer.hashicorp.com/terraform/language/expressions/types" %}
+{% embed url="https://developer.hashicorp.com/terraform/language/providers/configuration#alias-multiple-provider-configurations" %}
 
 ## Resource
 
@@ -59,3 +46,56 @@ Here are a list of meta arguments that all resources support.
 * [lifecycle](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) - Helps with lifecycle of the resource
 * [provisioner](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax) - Allows for  extra actions after creation of the resource
 
+## Terraform
+
+{% embed url="https://developer.hashicorp.com/terraform/language/settings" %}
+
+```
+terraform {
+  required_version = "<version>"
+  
+  required_providers {
+    <provider_name> = {
+      version = "<version>"
+    }
+  }
+}
+```
+
+## Variable
+
+{% embed url="https://developer.hashicorp.com/terraform/language/values/variables" %}
+
+```
+variable "name_of_variable" {
+    default - Default value if no value provided
+    type - Specifies the type of data
+    description - The documentation for the variable
+    validation - Defines a block of validation rules
+    sensitive - Prevents outputting of value to protect sensitive data
+    nullable - Determines if the variable can be null or not
+}
+```
+
+### Order of Precedence for Variable Assignment
+
+1. \-var or var-file
+2. \*.auto.tfvars or \*.auto.tfvars.json
+3. terraform.tfvars.json
+4. terraform.tfvars
+5. Environment Variables
+
+### Types
+
+The following are the possible variable types.&#x20;
+
+* string
+* number
+* bool
+* list(\<TYPE>)
+* set(\<TYPE)
+* map(\<TYPE>)
+* object({\<ATTR\_NAME> = \<TYPE>, ... })
+* tuple(\[\<TYPE>, ...])
+
+{% embed url="https://developer.hashicorp.com/terraform/language/expressions/types" %}
