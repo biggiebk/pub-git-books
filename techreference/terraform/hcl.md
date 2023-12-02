@@ -98,4 +98,8 @@ The following are the possible variable types.&#x20;
 * object({\<ATTR\_NAME> = \<TYPE>, ... })
 * tuple(\[\<TYPE>, ...])
 
-{% embed url="https://developer.hashicorp.com/terraform/language/expressions/types" %}
+{% embed url="https://developer.hashicorp.com/terraform/language/expressions/type-constraints" %}
+
+### Variable Validation
+
+{% embed url="https://developer.hashicorp.com/terraform/language/expressions/custom-conditions#input-variable-validation" %}
