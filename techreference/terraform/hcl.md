@@ -6,6 +6,39 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 {% embed url="https://developer.hashicorp.com/terraform/language" %}
 
+## Local
+
+{% embed url="https://developer.hashicorp.com/terraform/language/values/locals" %}
+
+<pre><code><strong>local {
+</strong>  variable_name = value_variable
+}
+</code></pre>
+
+Referenced in code as follows:
+
+```
+local.name_of_variable
+```
+
+Cannot be redefined in tfvars, env, or via the cli -var flag.
+
+## Output
+
+{% embed url="https://developer.hashicorp.com/terraform/language/values/outputs" %}
+
+```
+output "name_of_output" {
+  value = <variable or other output>
+  (description = text explaining the value)
+  (precondition)
+  (sensitive)
+  (depends_on)
+}
+```
+
+Displays when apply in run
+
 ## Provider
 
 {% embed url="https://developer.hashicorp.com/terraform/language/providers" %}
@@ -77,13 +110,19 @@ variable "name_of_variable" {
 }
 ```
 
+Referenced as follows in code.
+
+```
+var.name_of_variable
+```
+
 ### Order of Precedence for Variable Assignment
 
 1. \-var or var-file
 2. \*.auto.tfvars or \*.auto.tfvars.json
 3. terraform.tfvars.json
 4. terraform.tfvars
-5. Environment Variables
+5. Environment Variables (Must be set starting with TF\_VAR\_)
 
 ### Types
 
