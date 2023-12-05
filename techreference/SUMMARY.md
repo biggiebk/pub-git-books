@@ -28,6 +28,6 @@
 
 * [CLI](terraform/cli.md)
 * [Files/Folders](terraform/files-folders.md)
-* [HCL](terraform/hcl/README.md)
+* [HCL](terraform/hcl.md)
   * [Expressions](terraform/hcl/expressions.md)
   * [Providers](terraform/hcl/providers.md)

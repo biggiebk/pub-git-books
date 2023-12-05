@@ -8,7 +8,7 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 ## Expressions
 
-[See the expressions page.](expressions.md)
+[See the expressions page.](hcl/expressions.md)
 
 ## Functions
 
@@ -18,7 +18,7 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 {% embed url="https://developer.hashicorp.com/terraform/language/values/locals" %}
 
-See Providers page for list of interesting [HashiCorp Providers.](providers.md)
+See Providers page for list of interesting [HashiCorp Providers.](hcl/providers.md)
 
 <pre><code><strong>local {
 </strong>  variable_name = value_variable
