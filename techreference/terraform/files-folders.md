@@ -19,5 +19,5 @@ Files used to assign variables:
 * terraform.tfvars.json
 * terraform.tfvars
 
-For order of precedence see [Variables in HCL](hcl.md#order-of-precedence-for-variable-assignment).
+For order of precedence see [Variables in HCL](hcl/#order-of-precedence-for-variable-assignment).
 

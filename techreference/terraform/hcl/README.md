@@ -6,9 +6,19 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 {% embed url="https://developer.hashicorp.com/terraform/language" %}
 
+## Expressions
+
+[See the expressions page.](expressions.md)
+
+## Functions
+
+{% embed url="https://developer.hashicorp.com/terraform/language/functions" %}
+
 ## Local
 
 {% embed url="https://developer.hashicorp.com/terraform/language/values/locals" %}
+
+See Providers page for list of interesting [HashiCorp Providers.](providers.md)
 
 <pre><code><strong>local {
 </strong>  variable_name = value_variable
