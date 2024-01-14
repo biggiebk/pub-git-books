@@ -8,7 +8,7 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 ## Expressions
 
-[See the expressions page.](hcl/expressions/)
+[See the expressions page.](hcl/expressions.md)
 
 ## Functions
 
