@@ -8,7 +8,7 @@ description: Some basic structures for Hashicorp Configuration Language (HCL)
 
 ## Expressions
 
-[See the expressions page.](hcl/expressions.md)
+[See the expressions page.](hcl/expressions/)
 
 ## Functions
 
@@ -37,7 +37,7 @@ Cannot be redefined in tfvars, env, or via the cli -var flag.
 
 {% embed url="https://developer.hashicorp.com/terraform/language/values/outputs" %}
 
-```
+```hcl
 output "name_of_output" {
   value = <variable or other output>
   (description = text explaining the value)
@@ -48,6 +48,15 @@ output "name_of_output" {
 ```
 
 Displays when apply in run
+
+### Display multiple
+
+```hcl
+output "name_of_output" {
+  value = resource_type.name_of_resources.*.name
+
+}
+```
 
 ## Provider
 
@@ -142,7 +151,7 @@ The following are the possible variable types.&#x20;
 * number
 * bool
 * list(\<TYPE>)
-* set(\<TYPE)
+* set(\<TYPE>)
 * map(\<TYPE>)
 * object({\<ATTR\_NAME> = \<TYPE>, ... })
 * tuple(\[\<TYPE>, ...])

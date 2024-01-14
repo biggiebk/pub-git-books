@@ -27,7 +27,11 @@
 ## Terraform
 
 * [CLI](terraform/cli.md)
-* [Files/Folders](terraform/files-folders.md)
+* [Files/Folders](terraform/files-folders/README.md)
+  * [Directory Structure Options](terraform/files-folders/directory-structure-options.md)
 * [HCL](terraform/hcl.md)
-  * [Expressions](terraform/hcl/expressions.md)
+  * [Expressions](terraform/hcl/expressions/README.md)
+    * [Check](terraform/hcl/expressions/check.md)
+    * [Loops](terraform/hcl/expressions/loops.md)
+    * [Precondition and Postcondition](terraform/hcl/expressions/precondition-and-postcondition.md)
   * [Providers](terraform/hcl/providers.md)

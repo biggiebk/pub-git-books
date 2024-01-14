@@ -6,7 +6,7 @@ Review the contents of [Undoing Commits (reset)](undoing-commits-reset.md). You 
 
 We will be working with the assumption our commit history looks like the following.
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 1. Identify how far back you would like to reset to. In this case we want to reset to 2af74ca.
 2. Run **git reset 2af74ca** (you can also use a soft one, just NOT a hard reset)
