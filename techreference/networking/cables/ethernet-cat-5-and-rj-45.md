@@ -28,7 +28,7 @@ Requires that both ends RJ-45 Connectors to be wired with the same standard.
 
 ### Crossover
 
-One side of the cable is wired with 568A and the other is 568B.
+One side of the cable is wired with [568A](ethernet-cat-5-and-rj-45.md#id-568a) and the other is [568B](ethernet-cat-5-and-rj-45.md#id-568b).
 
 ## Length Info
 
