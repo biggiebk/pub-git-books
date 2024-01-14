@@ -30,6 +30,14 @@ The transmission **capacity** of a computer network or telecommunication system.
 
 ## M
 
+### MBps
+
+Megabytes per second is used in reference to a transfer [speed](glossary.md#speed) or rate
+
+### Mbps
+
+Megabits per second is used in reference to [bandwidth](glossary.md#bandwidth) or capacity
+
 ## N
 
 ## O
@@ -44,7 +52,7 @@ The transmission **capacity** of a computer network or telecommunication system.
 
 ### Speed
 
-The **rate** at which the something is able to move. For example Megabytes per second (MBps)&#x20;
+The **rate** at which something is able to move. For example Megabytes per second (MBps)&#x20;
 
 ## T
 
