@@ -42,4 +42,5 @@
 * [Cables](networking/cables/README.md)
   * [Coaxial](networking/cables/coaxial.md)
   * [Ethernet (CAT-5 & RJ-45)](networking/cables/ethernet-cat-5-and-rj-45.md)
+  * [Fiber-optic](networking/cables/fiber-optic.md)
 * [Glossary](networking/glossary.md)
